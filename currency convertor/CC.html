@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="CC.css">
+</head>
+<body>
+    <div id="currency" >
+      <div class="main">
+        <label class="amount-tag">Amount:</label>
+     
+          <input type="number" id="amount" placeholder="Enter amount">
+        
+          <label class="from-to">From:</label>
+          <select id="base-currency">
+            <option value="USD">US dollar</option>
+            <option value="INR">Indian rupee</option>
+            <option value="IDR">Indonesian rupiah</option>
+            <option value="JPY" selected>Japanese yen</option>
+            <option value="EURO" selected>Europian union</option>
+          </select>
+          <label class="from-to">To:</label>
+          <select id="target-currency">
+            <option value="USD" selected>US dollar</option>
+            <option value="INR">Indian rupee</option>
+            <option value="IDR">Indonesian rupiah</option>
+            <option value="JPY">Japanese yen</option>
+            <option value="EURO">Europian union</option>
+          </select>
+              
+          <p id="result"></p>
+      </div>
+     
+  </div>
+ 
+    <script src="CC.js"></script>
+</body>
+</html>
